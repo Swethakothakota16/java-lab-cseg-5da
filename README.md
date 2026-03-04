@@ -30,3 +30,46 @@ class  DefaultPrim
 ```
 ## output:
 ![output for 1a](https://github.com/Swethakothakota16/java-lab-cseg-5da/blob/27894ba7f8495fc905382b7df84f45d62c482ce3/1a.png)
+## Title 1b(Quadratic Equation):
+```
+import java.util.Scanner;
+class Quadraticeqn
+{
+  public static void main(String[] args)
+  {
+   Scanner sc =new Scanner(System.in);
+   System.out.println("enter value of a:");
+   double a= sc.nextDouble();
+    System.out.println("enter value of b:");
+       double b= sc.nextDouble();
+      System.out.println("enter value of c:");
+     double  c= sc.nextDouble();
+     double D=b*b-4*a*c;
+     if(D>0)
+     {
+        System.out.println("roots are real and distinct ");
+        double root1=(-b+Math.sqrt(D))/2*a;
+        double root2=(-b-Math.sqrt(D))/2*a;
+        System.out.println("root1:"+root1);
+        System.out.println("root2:"+root2);
+        }
+        else if(D==0)
+        {
+        System.out.println("roots are real and equal");
+        double root=-b/(2*a);
+        System.out.println("root:"+root);
+        }
+
+        else{
+        System.out.println("roots are imaginary ");
+        double real=-b/(2*a);
+        double imag=Math.sqrt(-D)/(2*a);
+       System.out.println("root1:"+real +"+"+imag+"i");
+       System.out.println("root2:"+real +"-"+imag+"i");
+       }
+       sc.close();
+     }
+}
+```
+## output:
+![output for 1b]
