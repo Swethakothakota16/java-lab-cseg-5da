@@ -133,7 +133,7 @@ class sum {
 }
 ```
 ## output:
-![output for 1b]
+![output for 2b](https://github.com/Swethakothakota16/java-lab-cseg-5da/blob/1b26c142b6ad368415d12f1aee6f11a7ecc3e627/2b.png)
 
 ## Title 2c(Implement Constructor):
 ```
@@ -168,6 +168,7 @@ class main
    }
 }
 ```
+![output for 2c](
 ## Additional Experiment 2:
 ```
 import java.util.Scanner;
@@ -273,6 +274,7 @@ class Main {
     }
 }
 ```
+![output for 3a]
 ## Title 3b(Binary Search):
 ```
 import java.util.Scanner;
@@ -349,6 +351,7 @@ class Main {
     }
 }
 ```
+![output for 3b]
 ## Title 3c(bubble sort):
 ```
 
@@ -395,6 +398,7 @@ class Main {
     }
 }
 ```
+![output for 3c]
 ## Title 4a(Single Inheritance):
 ```
 class person {
@@ -445,6 +449,7 @@ class TestEmployee {
     }
 }
 ```
+![output for 4a]
 
 ## Title 4b(Multi-level Inheritance):
 ```
@@ -489,6 +494,7 @@ public class TestVehicle {
     }
 }
 ```
+![output for 4b]
 ## Title 4c(To construct Abstract class):
 
 ```
@@ -541,6 +547,7 @@ public class TestFigure {
 }
 
 ```
+![output for 4c]
 ## Additional Experiment 1:
 ```
 import java.util.Scanner;
@@ -573,6 +580,7 @@ class substring {
 }
 
 ```
+![output for addexp1]
 ## Additional Experiment 3:
 ```
 
@@ -607,6 +615,7 @@ class PalindromeCheck {
     }
 }
 ```
+![output for addexp3]
 ## Additional Experiment 4:
 ```
 import java.util.Scanner;
@@ -636,7 +645,7 @@ class PerfectNumber {
 }
 
 ```
-
+![output for addexp4]
 
 ## Title 5a(Implement Interface):
 ```
@@ -718,8 +727,8 @@ public static void main(String[] args)
  }
 }
 
-
 ```
+![output for 5a]
 ## Title 5b(Runtime Polymorphism):
 
 ```
@@ -757,6 +766,7 @@ class poly
         }
 }
 ```
+![output for 5b]
 ## Title 5c(StringBuffer):
 ```
 
@@ -775,6 +785,7 @@ class Deletechar
 }
 
 ```
+![output for 5c]
 ## Title 6a(Exception Handling):
 
 ```
@@ -806,7 +817,7 @@ class ArrayIndexException {
     }
 }
 ```
-
+![output for 6a]
 
 ## Title 6b(MultipleCatch):
 ```
@@ -846,7 +857,7 @@ class MultipleCatch {
     }
 }
 ```
-
+![output for 6b]
 ## Title 6c(Built-in Exception):
 ```
 
@@ -883,6 +894,7 @@ class BuiltInException {
 }
 
 ```
+![output for 6c]
 ## Title 7a(User Defined Exception):
 ```
 class InvalidCountryException extends Exception {
@@ -924,6 +936,7 @@ public class Main {
     }
 }
 ```
+![output for 7a]
 ## Title 7b(Thread class):
 
 ```
@@ -978,6 +991,7 @@ public class Testthread {
     }
 }
 ```
+![output for 7b]
 ## Title 7c(is Alive and join()):
 
 ```
@@ -1023,6 +1037,7 @@ class ThreadDemo {
 }
 
 ```
+![output for 7c]
 ## Title 8a(Daemon Threads):
 
 ```
@@ -1070,6 +1085,7 @@ public class TestThreads {
 }
 
 ```
+![output for 8a]
 
 ## Title 8b(producerConsumer):
 
@@ -1167,5 +1183,6 @@ public class ProducerConsumerDemo {
 }
 
 ```
+![output for 8b]
 
 
