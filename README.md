@@ -73,3 +73,75 @@ class Quadraticeqn
 ```
 ## output:
 ![output for 1b](https://github.com/Swethakothakota16/java-lab-cseg-5da/blob/954a4159ba8ff6d9c7c8ce76d31044a9d0624c74/1b.png)
+
+## Additional Experiment 2:
+```
+import java.util.Scanner;
+
+class Fibonacci {
+
+    int firstnumber;
+    int secondnumber;
+    int thirdnumber;
+    int sum;
+    int sizeOfFibsequence;
+
+    // Constructor
+    Fibonacci(int size) {
+        firstnumber = 0;
+        secondnumber = 1;
+        thirdnumber = 0;
+        sum = 0;
+        sizeOfFibsequence = size;
+    }
+
+    void generateFibsequence() {
+
+        while (sizeOfFibsequence > 0) {
+
+            if (sizeOfFibsequence == 1)
+                System.out.print(firstnumber + ".");
+            else
+                System.out.print(firstnumber + ", ");
+
+            sizeOfFibsequence--;
+
+            sum += firstnumber;
+
+            thirdnumber = firstnumber + secondnumber;
+            firstnumber = secondnumber;
+            secondnumber = thirdnumber;
+        }
+    }
+
+    int getFibsum() {
+        return sum;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+
+        System.out.print("Enter size of FibSequence: ");
+        Scanner sc = new Scanner(System.in);
+
+        int size = sc.nextInt();
+
+        if (size > 0) {
+
+            Fibonacci fib = new Fibonacci(size);
+
+            System.out.println("\nFibonacci Series are:");
+            fib.generateFibsequence();
+
+            System.out.println("\nThe sum of Fibonacci Series: " + fib.getFibsum());
+        } else {
+            System.out.println("Fibonacci Sequence & sum cannot be calculated");
+        }
+
+        sc.close();
+    }
+}
+```
+## output:
+![output for Additional Experiment]
