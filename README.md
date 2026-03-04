@@ -73,7 +73,38 @@ class Quadraticeqn
 ```
 ## output:
 ![output for 1b](https://github.com/Swethakothakota16/java-lab-cseg-5da/blob/954a4159ba8ff6d9c7c8ce76d31044a9d0624c74/1b.png)
+## Experiment 2
+## Title 2a(Class Mechanism):
+```
+class Rectangle {
+    double length;
+    double breadth;
+    double area()
+    {
+        return length * breadth;
+    }
+   double perimeter()
+    {
+     return 2*(length+breadth);
+    }
+}
 
+class main {
+    public static void main(String[] args) {
+
+
+        Rectangle rect = new Rectangle();
+        rect.length=6;
+        rect.breadth=12;
+        double area=rect.area();
+        double  perimeter=rect.perimeter();
+        System.out.println("Area of rectangle : " + area);
+        System.out.println("perimeter of rectangle : " + perimeter);
+    }
+}
+```
+## output:
+![output for 1b]
 ## Additional Experiment 2:
 ```
 import java.util.Scanner;
@@ -144,4 +175,6 @@ public class Main {
 }
 ```
 ## output:
-![output for Additional Experiment]
+![output for Additional Experiment](https://github.com/Swethakothakota16/java-lab-cseg-5da/blob/e15fa05e021be60faed590c8c04b7fd18c0d69e6/addexp2.png)
+
+## 
