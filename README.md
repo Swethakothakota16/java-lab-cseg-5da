@@ -29,4 +29,4 @@ class  DefaultPrim
 }
 ```
 ## output:
-![output for 1a]
+![output for 1a](https://github.com/Swethakothakota16/java-lab-cseg-5da/blob/27894ba7f8495fc905382b7df84f45d62c482ce3/1a.png)
