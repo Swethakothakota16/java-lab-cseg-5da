@@ -72,4 +72,4 @@ class Quadraticeqn
 }
 ```
 ## output:
-![output for 1b]
+![output for 1b](https://github.com/Swethakothakota16/java-lab-cseg-5da/blob/954a4159ba8ff6d9c7c8ce76d31044a9d0624c74/1b.png)
