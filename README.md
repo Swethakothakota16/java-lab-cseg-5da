@@ -1181,5 +1181,48 @@ public class ProducerConsumerDemo {
 
 ```
 ![output for 8b](https://github.com/Swethakothakota16/java-lab-cseg-5da/blob/374895a9f77b23f7ec404958655e1a828aede4e4/8b.png)
+## Title 8c(user defined Packages):
+```
+package arithmetic;
 
+public class ArithmeticOperation {
 
+    public int add(int x, int y) {
+        return x + y;
+    }
+
+    public int subtraction(int x, int y) {
+        return x - y;
+    }
+
+    public int multiplication(int x, int y) {
+        return x * y;
+    }
+
+    public int division(int x, int y) {
+        return x / y;
+    }
+}
+import arithmetic.ArithmeticOperation;
+
+class Calculate {
+    public static void main(String args[]) {
+
+        ArithmeticOperation ae = new ArithmeticOperation();
+
+        int sum = ae.add(10, 5);
+        System.out.println("Addition: " + sum);
+
+        int diff = ae.subtraction(10, 5);
+        System.out.println("Subtraction: " + diff);
+
+        int prod = ae.multiplication(10, 5);
+        System.out.println("Multiplication: " + prod);
+
+        int div = ae.division(10, 5);
+        System.out.println("Division: " + div);
+    }
+}
+
+```
+[!output 8c]:(
