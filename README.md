@@ -1225,4 +1225,4 @@ class Calculate {
 }
 
 ```
-[!output 8c]:(
+[!output 8c]:(https://github.com/Swethakothakota16/java-lab-cseg-5da/blob/c594f191a3b2173ed766f2a51058ad7870d97031/8c.png)
