@@ -155,9 +155,6 @@ class Student{
     }
 
 }
-
-
-
 class main
 {
   public static void main(String[] args)
@@ -168,7 +165,7 @@ class main
    }
 }
 ```
-![output for 2c](
+![output for 2c](https://github.com/Swethakothakota16/java-lab-cseg-5da/blob/374895a9f77b23f7ec404958655e1a828aede4e4/2c.png)
 ## Additional Experiment 2:
 ```
 import java.util.Scanner;
@@ -274,7 +271,7 @@ class Main {
     }
 }
 ```
-![output for 3a]
+![output for 3a](https://github.com/Swethakothakota16/java-lab-cseg-5da/blob/374895a9f77b23f7ec404958655e1a828aede4e4/3a.png)
 ## Title 3b(Binary Search):
 ```
 import java.util.Scanner;
@@ -351,7 +348,7 @@ class Main {
     }
 }
 ```
-![output for 3b]
+![output for 3b](https://github.com/Swethakothakota16/java-lab-cseg-5da/blob/374895a9f77b23f7ec404958655e1a828aede4e4/3b.png)
 ## Title 3c(bubble sort):
 ```
 
@@ -398,7 +395,7 @@ class Main {
     }
 }
 ```
-![output for 3c]
+![output for 3c](https://github.com/Swethakothakota16/java-lab-cseg-5da/blob/374895a9f77b23f7ec404958655e1a828aede4e4/3c.png)
 ## Title 4a(Single Inheritance):
 ```
 class person {
@@ -449,7 +446,7 @@ class TestEmployee {
     }
 }
 ```
-![output for 4a]
+![output for 4a](https://github.com/Swethakothakota16/java-lab-cseg-5da/blob/374895a9f77b23f7ec404958655e1a828aede4e4/4a.png)
 
 ## Title 4b(Multi-level Inheritance):
 ```
@@ -494,7 +491,7 @@ public class TestVehicle {
     }
 }
 ```
-![output for 4b]
+![output for 4b](https://github.com/Swethakothakota16/java-lab-cseg-5da/blob/374895a9f77b23f7ec404958655e1a828aede4e4/4b.png)
 ## Title 4c(To construct Abstract class):
 
 ```
@@ -547,7 +544,7 @@ public class TestFigure {
 }
 
 ```
-![output for 4c]
+![output for 4c](https://github.com/Swethakothakota16/java-lab-cseg-5da/blob/374895a9f77b23f7ec404958655e1a828aede4e4/4c.png)
 ## Additional Experiment 1:
 ```
 import java.util.Scanner;
@@ -580,7 +577,7 @@ class substring {
 }
 
 ```
-![output for addexp1]
+![output for addexp1](https://github.com/Swethakothakota16/java-lab-cseg-5da/blob/374895a9f77b23f7ec404958655e1a828aede4e4/addexp1.png)
 ## Additional Experiment 3:
 ```
 
@@ -615,7 +612,7 @@ class PalindromeCheck {
     }
 }
 ```
-![output for addexp3]
+![output for addexp3](https://github.com/Swethakothakota16/java-lab-cseg-5da/blob/374895a9f77b23f7ec404958655e1a828aede4e4/ae3.png)
 ## Additional Experiment 4:
 ```
 import java.util.Scanner;
@@ -645,7 +642,7 @@ class PerfectNumber {
 }
 
 ```
-![output for addexp4]
+![output for addexp4](https://github.com/Swethakothakota16/java-lab-cseg-5da/blob/374895a9f77b23f7ec404958655e1a828aede4e4/ae4.png)
 
 ## Title 5a(Implement Interface):
 ```
@@ -728,7 +725,7 @@ public static void main(String[] args)
 }
 
 ```
-![output for 5a]
+![output for 5a](https://github.com/Swethakothakota16/java-lab-cseg-5da/blob/374895a9f77b23f7ec404958655e1a828aede4e4/5a.png)
 ## Title 5b(Runtime Polymorphism):
 
 ```
@@ -766,7 +763,7 @@ class poly
         }
 }
 ```
-![output for 5b]
+![output for 5b](https://github.com/Swethakothakota16/java-lab-cseg-5da/blob/374895a9f77b23f7ec404958655e1a828aede4e4/5b.png)
 ## Title 5c(StringBuffer):
 ```
 
@@ -785,7 +782,7 @@ class Deletechar
 }
 
 ```
-![output for 5c]
+![output for 5c](https://github.com/Swethakothakota16/java-lab-cseg-5da/blob/374895a9f77b23f7ec404958655e1a828aede4e4/5c.png)
 ## Title 6a(Exception Handling):
 
 ```
@@ -817,7 +814,7 @@ class ArrayIndexException {
     }
 }
 ```
-![output for 6a]
+![output for 6a](https://github.com/Swethakothakota16/java-lab-cseg-5da/blob/374895a9f77b23f7ec404958655e1a828aede4e4/6a.png)
 
 ## Title 6b(MultipleCatch):
 ```
@@ -857,7 +854,7 @@ class MultipleCatch {
     }
 }
 ```
-![output for 6b]
+![output for 6b](https://github.com/Swethakothakota16/java-lab-cseg-5da/blob/374895a9f77b23f7ec404958655e1a828aede4e4/6b.png)
 ## Title 6c(Built-in Exception):
 ```
 
@@ -894,7 +891,7 @@ class BuiltInException {
 }
 
 ```
-![output for 6c]
+![output for 6c](https://github.com/Swethakothakota16/java-lab-cseg-5da/blob/374895a9f77b23f7ec404958655e1a828aede4e4/6c.png)
 ## Title 7a(User Defined Exception):
 ```
 class InvalidCountryException extends Exception {
@@ -936,7 +933,7 @@ public class Main {
     }
 }
 ```
-![output for 7a]
+![output for 7a](https://github.com/Swethakothakota16/java-lab-cseg-5da/blob/374895a9f77b23f7ec404958655e1a828aede4e4/7a.png)
 ## Title 7b(Thread class):
 
 ```
@@ -991,7 +988,7 @@ public class Testthread {
     }
 }
 ```
-![output for 7b]
+![output for 7b](https://github.com/Swethakothakota16/java-lab-cseg-5da/blob/374895a9f77b23f7ec404958655e1a828aede4e4/7b.png)
 ## Title 7c(is Alive and join()):
 
 ```
@@ -1037,7 +1034,7 @@ class ThreadDemo {
 }
 
 ```
-![output for 7c]
+![output for 7c](https://github.com/Swethakothakota16/java-lab-cseg-5da/blob/374895a9f77b23f7ec404958655e1a828aede4e4/7c.png)
 ## Title 8a(Daemon Threads):
 
 ```
@@ -1085,7 +1082,7 @@ public class TestThreads {
 }
 
 ```
-![output for 8a]
+![output for 8a](https://github.com/Swethakothakota16/java-lab-cseg-5da/blob/374895a9f77b23f7ec404958655e1a828aede4e4/8a.png)
 
 ## Title 8b(producerConsumer):
 
@@ -1183,6 +1180,6 @@ public class ProducerConsumerDemo {
 }
 
 ```
-![output for 8b]
+![output for 8b](https://github.com/Swethakothakota16/java-lab-cseg-5da/blob/374895a9f77b23f7ec404958655e1a828aede4e4/8b.png)
 
 
