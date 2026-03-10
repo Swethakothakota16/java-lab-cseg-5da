@@ -1294,5 +1294,5 @@ public class Main {
     }
 }
 ```
-![output for 11]
+![output for 11]https://github.com/Swethakothakota16/java-lab-cseg-5da/blob/c51146d293ec66f201836adbc7c60c25529f913d/11.png
 
