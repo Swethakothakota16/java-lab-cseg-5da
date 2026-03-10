@@ -1226,3 +1226,73 @@ class Calculate {
 
 ```
 ![output for 8c](https://github.com/Swethakothakota16/java-lab-cseg-5da/blob/c594f191a3b2173ed766f2a51058ad7870d97031/8c.png)
+
+## title(11):
+```
+class Reservation {
+    int available;
+
+    Reservation(int available) {
+        this.available = available;
+    }
+
+    public synchronized void reserve(String name, int required) {
+
+        System.out.println("\n" + name + " is trying to reserve " + required + " berth(s).");
+
+        if (required <= available) {
+            System.out.println("Available berths: " + available);
+            available = available - required;
+            System.out.println("Booking confirmed for " + name);
+            System.out.println("Ticket printed for " + name);
+        } else {
+            System.out.println("No berths available for " + name);
+        }
+
+        System.out.println("Remaining berths: " + available);
+    }
+}
+
+class Person extends Thread {
+    String name;
+    int required;
+    Reservation r;
+
+    Person(String name, int required, Reservation r) {
+        this.name = name;
+        this.required = required;
+        this.r = r;
+    }
+
+    public void run() {
+        r.reserve(name, required);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+
+        Reservation r = new Reservation(5);
+
+        Person p1 = new Person("Thanuja", 2, r);
+        Person p2 = new Person("Ravi", 2, r);
+        Person p3 = new Person("Sita", 2, r);
+
+        p1.start();
+        p2.start();
+        p3.start();
+
+        try {
+            p1.join();
+            p2.join();
+            p3.join();
+        } catch (InterruptedException e) {
+            System.out.println(e);
+        }
+
+        System.out.println("\nAll threads finished execution.");
+    }
+}
+```
+![output for 11]
+
